@@ -1,0 +1,273 @@
+
+body {
+    /*Настройки шрифта всего текста*/
+    font-family: 'Roboto', sans-serif;
+    /*Настройки цвета всего текста*/
+    color: #3a3f52;
+}
+
+h2 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .05em;
+    color: #53627C;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+section {
+    padding: 100px 0px;
+}
+
+
+/* ==============================================
+   1. Навигация
+===============================================*/
+
+/*параметры навигации*/
+.custom-navbar {
+    background-color: #ffffff!important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
+    height: 70px;
+    max-height: 70px;
+    text-align: center;
+}
+
+/*параметры навигации*/
+.nav-custom-link {
+    font-size: 14px;
+    letter-spacing: .05em;
+    margin-top: 5px;
+}
+
+/*цвет кнопок навигации*/
+.navbar a {
+    color: #000000 !important;
+}
+
+/* ==============================================
+   2. Кнопки
+===============================================*/
+
+/*настройка кнопок*/
+.phone-icon::before {
+    content: "\260E"; /* Юникод-символ для иконки телефона */
+    margin-right: 5px; /* Расстояние между иконкой и текстом */
+}
+
+/*Блок связи*/
+.dev-regular {
+    background-color: #0080ff; /* Цвет всех кнопок-ссылок */
+    color: #ffffff;
+    padding: 10px 25px;
+    letter-spacing: .1em;
+    margin-top: 10px; /* Уменьшил отступ сверху, чтобы кнопка была ближе к заголовку */
+    display: inline-block;
+    border-radius: 40px !important;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.05), 0 1px 2px 0 rgba(0,0,0,.08);
+
+}
+
+
+/*Блок о разработчике - цвет*/
+#block1 {
+    background-color: #f6f8f9;
+}
+/*Блок о разработчике - шрифт*/
+#block1 h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+/*Блок о разработчике слово: Страница*/
+#block1 span {
+    font-weight: 400;
+    color: #0095f7;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    border-radius: 40px;
+}
+
+/* ==============================================
+   3. Блоки
+===============================================*/
+
+/*Отступы блоков*/
+
+.content-box {
+    padding: 60px 20px;
+}
+
+#block3 {
+    background-color: #f6f8f9;
+    /*Тень 2 блока верх*/
+    border-top: 1px solid #c9c9c9;
+    /*Тень 2 низ*/
+    border-bottom: 1px solid #c9c9c9;
+}
+
+/* ==============================================
+   4. Блок 2
+===============================================*/
+
+/*Настройки 2 блока*/
+.pic-box {
+    background-color: #ffffff;
+    box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+/*Настройки 2 блока текста*/
+.pic-box h6 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/*Настройки 2 блока*/
+.pic-box p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 25px;
+    line-height: 1.8;
+    padding: 0px;
+}
+
+/*Настройки 2 блока текста*/
+.pic-box small {
+    color: #000000;
+    display: inline-block;
+}
+
+/*Настройки 2 блока*/
+.box1 {
+    padding: 50px 0 20px 0;
+    box-shadow: 16px 8px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.title-block {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title-block p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #8da2b5;
+    margin-bottom: 0px;
+}
+
+/*блок слайдер*/
+.slider-container {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+.slider {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    height: auto;
+}
+
+.slide {
+    display: none;
+    font-size: 30px;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.box1 img {
+    width: 500%;
+
+}
+
+.slider-controls {
+    margin-top: 55px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0080ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+button:hover {
+    background-color: #0080ff;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+}
+
+.pic-box {
+    width: 1130px;
+    align-items: center;
+}
+
+.row h6 {
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row p {
+    font-size: 18px;
+}
+
+.col-md-2 {
+    margin-left: 150px;
+}
+
+.col-xs-2 {
+    margin-left: 150px;
+}

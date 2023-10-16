@@ -1,0 +1,70 @@
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 230px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 36px; /*Размер текста*/
+    color: #333; /*Цвет текста*/
+}
+
+p {
+    color: #000000;
+    margin: 20px 0; /*Отступ*/
+    font-size: 25px;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.skill span {
+    display: block;
+    font-weight: bold;
+}
+
+.progress {
+    background-color: #eee;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.progress-bar {
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 10px;
+    text-align: right;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.btn-regular {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+
+.btn-regular:hover {
+    background-color: #0056b3;
+}
+
+.developer-photo {
+    border-radius: 45px;
+    margin-left: 50px;
+
+}
